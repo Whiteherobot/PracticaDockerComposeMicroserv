@@ -31,3 +31,10 @@ services:
 
 volumes:
   products_data:
+
+
+
+
+#products-api:
+ # image: TUUSUARIO/products-api:1.0
+  # en lugar de build: .
