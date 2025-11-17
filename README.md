@@ -118,7 +118,7 @@ exit
 
 ##  Usar la imagen desde Docker Hub (opcional)
 
-Si publicas la imagen en Docker Hub y quieres usarla en lugar de construir localmente, edita `docker-compose.yml` para apuntar a tu imagen:
+En caso de querrer usar la imagen en Docker Hub en lugar de construir localmente, edita `docker-compose.yml` para apuntar a tu imagen:
 
 ```yaml
 services:
@@ -143,7 +143,7 @@ docker compose up
 docker compose down
 ```
 
-Si quieres eliminar también los volúmenes (p. ej. para reiniciar la DB desde cero):
+Para eliminar también los volúmenes (p. ej. para reiniciar la DB desde cero):
 
 ```powershell
 docker compose down -v
