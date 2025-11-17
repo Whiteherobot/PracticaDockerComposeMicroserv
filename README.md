@@ -1,8 +1,8 @@
-# 📦 Microservicio de Productos — Docker Compose
+#  Microservicio de Productos — Docker Compose
 
 Este repositorio contiene un microservicio sencillo en Node.js (Express) que sirve información de productos y usa PostgreSQL como almacenamiento. Todo está orquestado con Docker Compose para facilitar la ejecución local.
 
-## 📋 Índice
+## Índice
 
 - Requisitos
 - Levantar el proyecto (Docker Compose)
@@ -15,7 +15,7 @@ Este repositorio contiene un microservicio sencillo en Node.js (Express) que sir
 
 ---
 
-## 🚀 Requisitos
+## Requisitos
 
 Antes de ejecutar el proyecto necesitas:
 
@@ -25,7 +25,7 @@ Antes de ejecutar el proyecto necesitas:
 
 ---
 
-## 🐳 Levantar el proyecto (rápido)
+## Levantar el proyecto (rápido)
 
 1. Clona el repositorio (si aplica):
 
@@ -51,7 +51,7 @@ En los logs verás una línea similar a:
 
 ---
 
-## 📡 Endpoints disponibles
+## Endpoints disponibles
 
 - Comprobar que el servicio está arriba:
 
@@ -74,7 +74,7 @@ Invoke-RestMethod -Method GET http://localhost:3000/products
 
 ---
 
-## 🐘 Acceder a la base de datos (psql)
+## Acceder a la base de datos (psql)
 
 1. Entrar al contenedor de PostgreSQL:
 
@@ -134,7 +134,7 @@ docker compose up
 
 ---
 
-## 🧹 Detener y limpiar
+## Detener y limpiar
 
 - Para detener los servicios cuando están en primer plano: pulsa Ctrl + C
 - Para detener y eliminar contenedores, redes y volúmenes creados por compose:
