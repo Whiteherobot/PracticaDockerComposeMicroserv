@@ -151,7 +151,7 @@ docker compose down -v
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 microservice-example/
