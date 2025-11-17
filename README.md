@@ -11,7 +11,7 @@ Este repositorio contiene un microservicio sencillo en Node.js (Express) que sir
 - Usar una imagen desde Docker Hub (opcional)
 - Detener y limpiar
 - Estructura del proyecto
-- Notas
+
 
 ---
 
